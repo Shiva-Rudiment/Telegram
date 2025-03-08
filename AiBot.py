@@ -2,7 +2,7 @@ import telebot
 import models
 import os  
 
-bot = telebot.TeleBot('7884488840:AAET8QD6tT9teDn6vd8QPhiYF4J1Uma7dUM')
+bot = telebot.TeleBot('ZAMENITb')
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
